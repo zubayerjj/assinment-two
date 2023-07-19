@@ -1,0 +1,541 @@
+/* nav style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0eaea;
+    color: #1f1d1d;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+nav span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-list li {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+.follow-us img {
+    height: 24px;
+    margin-left: 0.5rem;
+    /* padding-top: 15px; */
+}
+
+
+.menu-list li:hover {
+    color: #e6db0f; 
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav img {
+        height: 30px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav span {
+        font-size: 1rem;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    nav {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* nav style end  */
+
+/* header style  */
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background-color: #f2f2f2;
+}
+
+
+header div:first-child {
+    flex: 1;
+}
+
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+header button {
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    background-color: #ff2f86;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+header button:hover {
+    background-color: #2833ac; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    header div:first-child {
+        margin-bottom: 2rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header button {
+        padding: 0.8rem 1.6rem;
+        font-size: 0.9rem;
+    }
+    header img {
+        width: 350px;
+        height: auto;
+
+    }
+}
+
+/* <!-- We are gamer  --> */
+
+.gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+
+.gamer div:first-child {
+    flex: 1;
+}
+
+
+.gamer div:last-child {
+    flex: 1;
+    margin-left: 2rem; 
+}
+
+.gamer h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.gamer p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.gamer button {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+
+.gamer button:hover {
+    background-color: #555; 
+}
+
+
+.gamer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.gamer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+@media screen and (max-width: 768px) {
+    .gamer {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .gamer div:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .gamer h1 {
+        font-size: 2rem;
+    }
+
+    .gamer button {
+        padding: 0.8rem 1.6rem;
+        font-size: 0.9rem;
+    }
+    .gamer img{
+        width: 380px;
+        height: auto;
+    }
+}
+/* Online Games Funny Videos  */
+
+.games {
+    padding: 4rem;
+    text-align: center;
+}
+
+
+.games h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.games p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.games > .games-pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.games > .games-pic > div {
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.games > .games-pic img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+.games > .games-pic p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* Play Instantly, No Downloads No Installs. */
+
+
+.Play-Instantly {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+/* Styles for the left side content in the section */
+.Play-Instantly div:first-child {
+    flex: 1;
+}
+
+/* Styles for the right side content in the section */
+.Play-Instantly div:last-child {
+    flex: 1;
+    margin-left: 2rem; /* Add some spacing between the images and the text */
+}
+
+/* Styles for the header text */
+.Play-Instantly h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.Play-Instantly p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Styles for the images on the right side */
+.Play-Instantly img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Play-Instantly {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .Play-Instantly div:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .Play-Instantly h1 {
+        font-size: 2rem;
+    }
+
+    .Play-Instantly button {
+        padding: 0.8rem 1.6rem;
+        font-size: 0.9rem;
+    }
+}
+/* careers  */
+
+.Careers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background-color: #ff2f86;
+}
+
+/* Styles for the left side content in the section */
+.Careers div:first-child {
+    flex: 1;
+}
+
+/* Styles for the right side content in the section */
+.Careers div:last-child {
+    flex: 1;
+    margin-left: 2rem; /* Add some spacing between the image and content */
+}
+
+/* Styles for the header text */
+.Careers h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.Careers p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Styles for the careers list and locations */
+.Careers div > h5 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the locations list */
+.Careers div > h5:last-child {
+    margin-bottom: 0; /* Remove margin from the last careers list */
+}
+
+/* Styles for the "See all positions" button */
+.Careers button {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px; /* Add semi-rounded border */
+    transition: background-color 0.3s ease; /* Add transition for the hover effect */
+}
+
+/* Styles for the hover effect on the button */
+.Careers button:hover {
+    background-color: #555; /* Change the background color on hover */
+}
+
+/* Styles for the image on the right side */
+.Careers img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 768px) {
+    .Careers {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .Careers div:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .Careers h1 {
+        font-size: 2rem;
+    }
+
+    .Careers button {
+        padding: 0.8rem 1.6rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Games name  */
+
+
+.Games-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 4rem;
+    text-align: center;
+}
+
+
+.Games-name div {
+    flex-basis: calc(17% - 1rem); 
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease; 
+}
+
+
+.Games-name img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Games-name div {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
+.Games-name div:hover {
+    transform: scale(1.05);
+    background-color: #555;
+}
+
+
+/* footer style  */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer div:first-child {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.footer img {
+    max-width: 40px;
+    margin-right: 0.5rem;
+}
+
+
+.footer div:nth-child(2) {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer div:nth-child(2) li {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+
+.footer div:last-child {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+ @media screen and (max-width: 768px) {
+    .footer {
+        padding: 2rem; 
+        display: flex;
+    }
+ }
+   
